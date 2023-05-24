@@ -1,0 +1,140 @@
+body {
+  background-color: #1ab7c6;
+
+}
+
+header {
+  background-color: #e74d9a;
+  color: #b86060;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  display: inline-block;
+  font-size: x-large;
+}
+
+nav li a {
+  color: #070505;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #d7a9d0;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropbtn {
+  background-color: #1ab7c6;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* conversación actual */
+
+
+.macro {
+  position: relative;
+  float: right;
+}
+
+.container {
+  border: 2px solid #dedede;
+  /* background-color: #4896c9; */
+  background-color: #d7a9d0;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 50em;
+}
+
+
+.darker {
+  border-color: #ccc;
+  background-color: #e74d9a;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+.time-right {
+  float: right;
+  color: #544f4f;
+}
+
+.time-left {
+  float: left;
+  color: #cdb2b2;
+}
+
+/* Additional styles for the chat messages can be added here */
+
+.chat-container {
+  display: inline-block;
+  margin: 40px;
+}
+
+.conversation {
+  flex-basis: 48%;
+  margin-bottom: 20px;
+  padding: 30px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #d7a9d0;
+
+}
+
+.conversation h2 {
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
